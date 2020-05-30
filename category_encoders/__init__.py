@@ -23,6 +23,7 @@ from category_encoders.m_estimate import MEstimateEncoder
 from category_encoders.james_stein import JamesSteinEncoder
 from category_encoders.cat_boost import CatBoostEncoder
 from category_encoders.glmm import GLMMEncoder
+from category_encoders.nested import NestedTargetEncoder
 
 __version__ = '2.2.2'
 
@@ -44,5 +45,6 @@ __all__ = [
     'MEstimateEncoder',
     'JamesSteinEncoder',
     'CatBoostEncoder',
-    'GLMMEncoder'
+    'GLMMEncoder',
+    'NestedTargetEncoder'
 ]
